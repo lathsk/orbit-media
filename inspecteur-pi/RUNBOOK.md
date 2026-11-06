@@ -1,9 +1,11 @@
 # RUNBOOK — @inspecteur.pi (énigmes quotidiennes)
 
 Objectif : à chaque exécution, fabriquer **2 vidéos** (épisodes N et N+1, N = `state.json.next_number`),
-les héberger dans ce dépôt, puis les **ENVOYER à l'utilisateur** (SendUserFile + message avec descriptions et heures conseillées). **MODE MANUEL depuis le 4 nov. 2026** : la limite gratuite de Metricool est atteinte, ne rien programmer (aucun createScheduledPost) ; l'utilisateur publie à la main. Metricool reste en lecture (getBestTimeToPostByNetwork, brand 7769726).
+les héberger dans ce dépôt (`lathsk/orbit-media`, branche `main`), puis les **PROGRAMMER** dans le dépôt privé `lathsk/orbit-auto`
+(fichier `posts.json`) : une routine GitHub y publie automatiquement les Reels sur Instagram et TikTok toutes les 30 minutes.
+Les stories restent manuelles : les fabriquer et les envoyer à l'utilisateur (SendUserFile + message avec heures conseillées).
 Ne jamais écrire de clé API dans un fichier ni dans un message. La clé Gemini est dans la variable d'environnement `GKEY`.
-Dépôt public : tout ce qui est poussé ici est visible de tous. Travailler sur la branche `inspecteur-media` uniquement.
+Dépôt public : tout ce qui est poussé ici est visible de tous. Travailler sur la branche `main` uniquement.
 
 ## 1. Compte et style
 - Compte Instagram/TikTok « inspecteur.pi » : une énigme numérotée par vidéo, style pixel-art sombre. Mascotte : l'inspecteur (chapeau, trench, loupe).
@@ -31,17 +33,15 @@ Pour un nouvel épisode N : copier ces 4 fichiers en `renderN.py`, `buildN.py`, 
 6. **Miniature** : `cover(1.0)` du renderer → PNG 1080×1920 (utile comme cover ; cf. `videoThumbnailUrl`).
 7. **Validation avant publication** : `ffprobe` durée 55–90 s, 1080×1920, h264+aac ; `volumedetect` max_volume ≤ −1 dB. Si une étape échoue : ne PAS programmer cette vidéo, consigner l'erreur dans `state.json.errors`.
 
-## 3. Hébergement et envoi (mode manuel ; l'ancienne programmation Metricool ci-dessous est SUSPENDUE)
-1. `git checkout inspecteur-media` ; copier la vidéo dans `inspecteur-pi/videos/NNN.mp4` ; commit + push (`git fetch origin inspecteur-media` avant le push).
-2. URL publique : `https://raw.githubusercontent.com/ledeclicpro12-cyber/nitt/inspecteur-media/inspecteur-pi/videos/NNN.mp4`
-   (Metricool la télécharge et la ré-héberge : vérifié, la réponse contient `static.metricool.com`).
-3. Outil Metricool `createScheduledPost` : `blogId` = `7769726`, fuseau `Europe/Paris`, `info` (JSON) avec
-   `providers: [{"network":"instagram"},{"network":"tiktok"}]`, `instagramData: {"type":"REEL","showReelOnFeed":true}`,
-   `tiktokData: {"privacyOption":"PUBLIC_TO_EVERYONE","title":"<titre court>","disableComment":false,"disableDuet":false,"disableStitch":false}`,
-   `autoPublish: true`, `draft: false`, `media: [<url raw>]`, `text` = description (modèle ci-dessous).
-   Les meilleurs créneaux mesurés par Metricool sont 10:00 et 18:00. Épisode N à 10:00, N+1 à 18:00, le lendemain de l'exécution.
-4. Vérifier avec `getScheduledPosts` que les 2 posts sont bien en attente (statut PENDING).
-5. Mettre à jour `state.json` (`next_number` += 2, titres ajoutés), commit + push sur `inspecteur-media`.
+## 3. Hébergement et programmation
+1. Copier la vidéo dans `inspecteur-pi/videos/NNN.mp4` (+ `NNN_cover.png`) ; `git fetch origin main`, commit, push sur `main`.
+2. URL publique à utiliser : `https://raw.githubusercontent.com/lathsk/orbit-media/main/inspecteur-pi/videos/NNN.mp4`
+   (vérifier avec `curl -sI` : la réponse doit être 200 ; sinon attendre 1 minute et réessayer).
+3. Dans `lathsk/orbit-auto`, ajouter à `posts.json` un objet par vidéo :
+   `{"id": "inspecteur-NNN", "video_url": "<url raw>", "caption": "<description, modèle ci-dessous>", "networks": ["instagram","tiktok"], "when": "AAAA-MM-JJTHH:MM:00+01:00"}`
+   (décalage exact avec `TZ=Europe/Paris date -d "AAAA-MM-JJ HH:MM" +%:z`). Aucune autre clé : `done` et `errors` sont gérés par la routine.
+   Les vidéos TikTok sortent en privé (« Moi uniquement ») tant que l'application TikTok n'est pas auditée.
+4. Mettre à jour `state.json` (`next_number` += 2, titres ajoutés, horaires choisis), commit + push sur `main`.
 
 ## 4. Modèle de description
 ```
@@ -60,8 +60,8 @@ Pour un nouvel épisode N : copier ces 4 fichiers en `renderN.py`, `buildN.py`, 
 Texte TikTok < 2200 caractères. Pas de promesse chiffrée fausse ; si l'énigme a un piège classique dans les commentaires, ne pas le spoiler.
 
 ## 4. Stories
-Pas d'extraits vidéo. Visuels pixel-art 1080x1920 générés par `pipeline/stories.py` (2 mini-énigmes/jour, question + réponse, différentes des vidéos). PNG dans `stories/AAAA-MM-JJ/`. Metricool : `instagramData {"type":"STORY"}`, texte vide, instagram seul ; questions = heure du Reel + 30 min, réponses à 21:00 et 21:10. Marque Metricool connectée : 7769726.
+Pas d'extraits vidéo. Visuels pixel-art 1080x1920 générés par `pipeline/stories.py` (2 mini-énigmes/jour, question + réponse, différentes des vidéos). PNG dans `stories/AAAA-MM-JJ/`. Publication manuelle par l'utilisateur ; questions = heure du Reel + 30 min, réponses entre 20:00 et 21:30.
 
 ## 5. Qualité et horaires (consignes de l'utilisateur)
 - Prendre le temps nécessaire pour un rendu soigné : au moins 2 passes de contrôle (planches contact de toutes les scènes, synchro whisper, fin, ffprobe/volumedetect) et corriger avant de programmer.
-- Horaires : jamais fixes. Demander à Metricool (getBestTimeToPostByNetwork, jour précis, instagram + tiktok), choisir 2 créneaux parmi les 4 meilleurs, éviter l'heure exacte de la veille, minutes variables (±30 min max autour du créneau). Noter les heures choisies dans state.json (champ horaires).
+- Horaires : jamais fixes. Créneaux conseillés : autour de 10:00–13:30 et 18:00–21:30, espacés d'au moins 4 h, entre 07:00 et 22:00, minutes variables, jamais l'heure exacte de la veille (voir `state.json`, champ `horaires`). Noter les heures choisies dans `state.json`. La routine publie dans la demi-heure qui suit l'heure indiquée.
