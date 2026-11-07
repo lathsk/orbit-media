@@ -1,5 +1,5 @@
 {
-  "next_number": 26,
+  "next_number": 27,
   "published_or_made": {
     "001": "chameaux (héritage de chameaux)",
     "002": "énigme (voir miniatures)",
@@ -25,7 +25,8 @@
     "022": "jeu des 21 allumettes (on en prend 1 à 3, celui qui prend la dernière gagne) : prendre 1 puis laisser un multiple de 4",
     "023": "le moine et la montagne : montée un jour, descente le lendemain, il passe forcément au même endroit à la même heure (deux moines qui se croisent)",
     "024": "feuille de papier pliée 42 fois : dépasse la Lune (épaisseur 0,1 mm, ×2 à chaque pli, 440 000 km > 384 400 km)",
-    "025": "deux Parisiens ont le même nombre de cheveux (principe des tiroirs : >2 M habitants, 200 001 valeurs, au moins 10 en commun)"
+    "025": "deux Parisiens ont le même nombre de cheveux (principe des tiroirs : >2 M habitants, 200 001 valeurs, au moins 10 en commun)",
+    "026": "paradoxe des anniversaires : 23 invités → 50,7 % de chance que deux aient le même anniversaire (253 paires ; 57 → 99 % ; 70 → 99,9 %)"
   },
   "also_made_not_published": [
     "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -47,7 +48,9 @@
     "soustraire 5 de 25 : une seule fois",
     "deux pièces font 3 € dont l'une n'est pas 1 € : 2 € + 1 €",
     "tournoi à élimination directe, 100 joueurs : 99 matchs (1 éliminé par match)",
-    "dernier chiffre de 7×7×…(2026 fois) : cycle 7-9-3-1, 2026 mod 4 = 2 → 9"
+    "dernier chiffre de 7×7×…(2026 fois) : cycle 7-9-3-1, 2026 mod 4 = 2 → 9",
+    "batte + balle = 1,10 € (batte = balle + 1 €) : balle 5 centimes",
+    "horloge : 6 coups en 5 s → 12 coups en 11 s (on compte les pauses)"
   ],
   "horaires": {
     "2026-10-31": [
@@ -115,6 +118,15 @@
       "story_a1": "20:34",
       "story_a2": "21:02",
       "note": "Mode manuel. Samedi. IG top : 10h(3409)/12h(2822)/11h(2816)/18h(2393) ; TikTok : 10h(852)/12h(815)/18h(709)/16h(620). 10h et 18h = meilleur couple commun espacé de 8 h ; minutes différentes de la veille (12:19/18:09)."
+    },
+    "2026-11-08": {
+      "reel_025": "10:41",
+      "reel_026": "18:14",
+      "story_q1": "11:11",
+      "story_q2": "18:44",
+      "story_a1": "20:27",
+      "story_a2": "20:52",
+      "note": "Dimanche. Stock 025 + nouvelle 026. 10h/18h, minutes différentes de la veille (10:23/18:36). Mode routine automatique."
     }
   }
 }
