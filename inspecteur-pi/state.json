@@ -1,5 +1,5 @@
 {
-  "next_number": 27,
+  "next_number": 29,
   "published_or_made": {
     "001": "chameaux (héritage de chameaux)",
     "002": "énigme (voir miniatures)",
@@ -26,7 +26,9 @@
     "023": "le moine et la montagne : montée un jour, descente le lendemain, il passe forcément au même endroit à la même heure (deux moines qui se croisent)",
     "024": "feuille de papier pliée 42 fois : dépasse la Lune (épaisseur 0,1 mm, ×2 à chaque pli, 440 000 km > 384 400 km)",
     "025": "deux Parisiens ont le même nombre de cheveux (principe des tiroirs : >2 M habitants, 200 001 valeurs, au moins 10 en commun)",
-    "026": "paradoxe des anniversaires : 23 invités → 50,7 % de chance que deux aient le même anniversaire (253 paires ; 57 → 99 % ; 70 → 99,9 %)"
+    "026": "paradoxe des anniversaires : 23 invités → 50,7 % de chance que deux aient le même anniversaire (253 paires ; 57 → 99 % ; 70 → 99,9 %)",
+    "027": "deux œufs et un immeuble de 100 étages : nombre minimal de lancers au pire des cas = 14 (paliers 14, 27, 39… ; 14+13+…+1 = 105 ≥ 100)",
+    "028": "nombre secret entre 1 et 1 000 000 : 20 questions oui/non suffisent (2^20 = 1 048 576 ; 19 ne suffisent pas, 2^19 = 524 288)"
   },
   "also_made_not_published": [
     "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -50,7 +52,9 @@
     "tournoi à élimination directe, 100 joueurs : 99 matchs (1 éliminé par match)",
     "dernier chiffre de 7×7×…(2026 fois) : cycle 7-9-3-1, 2026 mod 4 = 2 → 9",
     "batte + balle = 1,10 € (batte = balle + 1 €) : balle 5 centimes",
-    "horloge : 6 coups en 5 s → 12 coups en 11 s (on compte les pauses)"
+    "horloge : 6 coups en 5 s → 12 coups en 11 s (on compte les pauses)",
+    "de 1 à 100, combien de fois écrit-on le chiffre 9 : 20",
+    "6 verres (3 pleins, 3 vides) : alterner en bougeant un seul verre (verser le 2e dans le 5e)"
   ],
   "horaires": {
     "2026-10-31": [
@@ -127,6 +131,15 @@
       "story_a1": "20:27",
       "story_a2": "20:52",
       "note": "Dimanche. Stock 025 + nouvelle 026. 10h/18h, minutes différentes de la veille (10:23/18:36). Mode routine automatique."
+    },
+    "2026-11-09": {
+      "reel_027": "10:08",
+      "reel_028": "18:47",
+      "story_q1": "10:38",
+      "story_q2": "19:17",
+      "story_a1": "20:12",
+      "story_a2": "20:41",
+      "note": "Lundi. Stock vide : 027 + 028 fabriquées. Minutes différentes de la veille (10:41/18:14). Mode routine automatique."
     }
   }
 }
