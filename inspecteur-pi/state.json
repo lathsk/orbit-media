@@ -165,7 +165,12 @@
       "story_q2": "19:11",
       "story_a1": "20:08",
       "story_a2": "20:39",
-      "note": "Jeudi. Exécution du 11/11 à 12:30 Paris : programmation pour le lendemain 12/11 (le 11/11 n'avait aucune publication programmée). Stock vide : 031 + 032 fabriquées. Minutes différentes du 10/11 (10:34/18:23). Mode routine automatique."
+      "note": "Stories seules (vidéos 031/032 avancées au 11/11)."
+    },
+    "2026-11-11": {
+      "reel_031": "13:40",
+      "reel_032": "18:37",
+      "note": "Reprogrammées le 11/11 à 13:15 sur demande de l'utilisateur (la session de la veille ne s'était pas lancée). Stories 031/032 restent au 12/11."
     }
   }
 }
