@@ -1,7 +1,7 @@
 from render_e2x import *
 import os
 B.NUM='MINI-ÉNIGME'
-D='../stories/2026-11-12/'; os.makedirs(D,exist_ok=True)
+D='../stories/2026-11-11/'; os.makedirs(D,exist_ok=True)
 def mk(fn,head,label,out,foot=None,t=0.0):
     def f(lay,dd):
         fn(lay,dd)
