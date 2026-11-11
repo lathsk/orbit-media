@@ -1,5 +1,5 @@
 {
-  "next_number": 31,
+  "next_number": 33,
   "published_or_made": {
     "001": "chameaux (héritage de chameaux)",
     "002": "énigme (voir miniatures)",
@@ -30,7 +30,9 @@
     "027": "deux œufs et un immeuble de 100 étages : nombre minimal de lancers au pire des cas = 14 (paliers 14, 27, 39… ; 14+13+…+1 = 105 ≥ 100)",
     "028": "nombre secret entre 1 et 1 000 000 : 20 questions oui/non suffisent (2^20 = 1 048 576 ; 19 ne suffisent pas, 2^19 = 524 288)",
     "029": "100 casiers et 100 élèves (le k-ième change un casier sur k) : 10 casiers restent ouverts (carrés parfaits, nombre impair de diviseurs)",
-    "030": "marchand, balance à 2 plateaux et 4 poids pour peser de 1 à 40 kg : 1, 3, 9, 27 (poids sur les deux plateaux, base 3 équilibrée)"
+    "030": "marchand, balance à 2 plateaux et 4 poids pour peser de 1 à 40 kg : 1, 3, 9, 27 (poids sur les deux plateaux, base 3 équilibrée)",
+    "031": "dix prisonniers en file, chapeaux noir/blanc : 9 sauvés à coup sûr grâce à la parité des chapeaux blancs (le dernier annonce le code)",
+    "032": "trois caisses (pommes, oranges, mélange) aux étiquettes toutes fausses : piocher un fruit dans la caisse « mélange »"
   },
   "also_made_not_published": [
     "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -58,7 +60,9 @@
     "de 1 à 100, combien de fois écrit-on le chiffre 9 : 20",
     "6 verres (3 pleins, 3 vides) : alterner en bougeant un seul verre (verser le 2e dans le 5e)",
     "2 pères + 2 fils, 3 poissons un chacun : 3 personnes (grand-père, père, fils)",
-    "combien de mois ont 28 jours : les 12"
+    "combien de mois ont 28 jours : les 12",
+    "tablette de chocolat 6 x 8 : 47 coups (1 morceau de plus par cassure)",
+    "zéros à la fin de 100! : 24 (20 multiples de 5 + 4 multiples de 25)"
   ],
   "horaires": {
     "2026-10-31": [
@@ -153,6 +157,15 @@
       "story_a1": "20:19",
       "story_a2": "20:46",
       "note": "Mardi. Stock vide : 029 + 030 fabriquées. Minutes différentes de la veille (10:08/18:47). Mode routine automatique."
+    },
+    "2026-11-12": {
+      "reel_031": "10:14",
+      "reel_032": "18:41",
+      "story_q1": "10:44",
+      "story_q2": "19:11",
+      "story_a1": "20:08",
+      "story_a2": "20:39",
+      "note": "Jeudi. Exécution du 11/11 à 12:30 Paris : programmation pour le lendemain 12/11 (le 11/11 n'avait aucune publication programmée). Stock vide : 031 + 032 fabriquées. Minutes différentes du 10/11 (10:34/18:23). Mode routine automatique."
     }
   }
 }
