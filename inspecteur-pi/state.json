@@ -1,5 +1,5 @@
 {
-  "next_number": 35,
+  "next_number": 37,
   "published_or_made": {
     "001": "chameaux (héritage de chameaux)",
     "002": "énigme (voir miniatures)",
@@ -34,7 +34,9 @@
     "031": "dix prisonniers en file, chapeaux noir/blanc : 9 sauvés à coup sûr grâce à la parité des chapeaux blancs (le dernier annonce le code)",
     "032": "trois caisses (pommes, oranges, mélange) aux étiquettes toutes fausses : piocher un fruit dans la caisse « mélange »",
     "033": "test positif à une maladie rare (1/1000, fiabilité 99 %) : proba d'être vraiment malade ≈ 9 % (1 vrai malade pour ~10 faux positifs sur 1000)",
-    "034": "deux mèches de 1 h (vitesse irrégulière) pour mesurer 45 min : allumer A aux deux bouts et B à un bout, à 30 min allumer l'autre bout de B (+15 min)"
+    "034": "deux mèches de 1 h (vitesse irrégulière) pour mesurer 45 min : allumer A aux deux bouts et B à un bout, à 30 min allumer l'autre bout de B (+15 min)",
+    "035": "pierre jetée d'une barque dans un lac : le niveau de l'eau descend (la pierre dans la barque déplace son poids d'eau, au fond seulement son volume ; 1000 kg ≈ 1000 L contre ≈ 370 L)",
+    "036": "pièce truquée, tirage équitable : lancer deux fois, Pile-Face → A, Face-Pile → B, sinon on recommence (p(1-p) = (1-p)p ; astuce de von Neumann)"
   },
   "also_made_not_published": [
     "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -66,7 +68,9 @@
     "tablette de chocolat 6 x 8 : 47 coups (1 morceau de plus par cassure)",
     "zéros à la fin de 100! : 24 (20 multiples de 5 + 4 multiples de 25)",
     "nombre à 2 chiffres, somme 9, inversé +27 : 36",
-    "suite 1, 11, 21, 1211, 111221 (look-and-say) : 312211"
+    "suite 1, 11, 21, 1211, 111221 (look-and-say) : 312211",
+    "somme de 1 à 100 : 5050 (50 paires de 101, Gauss)",
+    "5 filles Lala, Lélé, Lili, Lolo… : Lulu (les voyelles A E I O U)"
   ],
   "horaires": {
     "2026-10-31": [
@@ -179,6 +183,15 @@
       "story_a1": "20:23",
       "story_a2": "20:51",
       "note": "Jeudi. Stock vide : 033 + 034 fabriquées. Minutes différentes de la veille (13:40/18:37). Mode routine automatique."
+    },
+    "2026-11-13": {
+      "reel_035": "11:07",
+      "reel_036": "18:54",
+      "story_q1": "11:37",
+      "story_q2": "19:24",
+      "story_a1": "20:31",
+      "story_a2": "21:02",
+      "note": "Vendredi. Stock vide : 035 + 036 fabriquées. Minutes différentes de la veille (10:19/18:12). Mode routine automatique."
     }
   }
 }
