@@ -1,5 +1,5 @@
 {
-  "next_number": 37,
+  "next_number": 39,
   "published_or_made": {
     "001": "chameaux (héritage de chameaux)",
     "002": "énigme (voir miniatures)",
@@ -36,7 +36,9 @@
     "033": "test positif à une maladie rare (1/1000, fiabilité 99 %) : proba d'être vraiment malade ≈ 9 % (1 vrai malade pour ~10 faux positifs sur 1000)",
     "034": "deux mèches de 1 h (vitesse irrégulière) pour mesurer 45 min : allumer A aux deux bouts et B à un bout, à 30 min allumer l'autre bout de B (+15 min)",
     "035": "pierre jetée d'une barque dans un lac : le niveau de l'eau descend (la pierre dans la barque déplace son poids d'eau, au fond seulement son volume ; 1000 kg ≈ 1000 L contre ≈ 370 L)",
-    "036": "pièce truquée, tirage équitable : lancer deux fois, Pile-Face → A, Face-Pile → B, sinon on recommence (p(1-p) = (1-p)p ; astuce de von Neumann)"
+    "036": "pièce truquée, tirage équitable : lancer deux fois, Pile-Face → A, Face-Pile → B, sinon on recommence (p(1-p) = (1-p)p ; astuce de von Neumann)",
+    "037": "chaîne d'or de 7 maillons pour payer 7 nuits d'auberge (un maillon par nuit en cumul) : couper le 3e maillon → morceaux 1, 2, 4 (binaire, échanges d'un soir à l'autre)",
+    "038": "course de chevaux à l'envers (le cheval qui arrive le dernier hérite) : échanger les chevaux, chacun veut devancer l'autre"
   },
   "also_made_not_published": [
     "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -70,7 +72,9 @@
     "nombre à 2 chiffres, somme 9, inversé +27 : 36",
     "suite 1, 11, 21, 1211, 111221 (look-and-say) : 312211",
     "somme de 1 à 100 : 5050 (50 paires de 101, Gauss)",
-    "5 filles Lala, Lélé, Lili, Lolo… : Lulu (les voyelles A E I O U)"
+    "5 filles Lala, Lélé, Lili, Lolo… : Lulu (les voyelles A E I O U)",
+    "nombre de carrés sur un échiquier 8x8 : 204 (1+4+9+…+64)",
+    "un lundi + 100 jours : mercredi (100 = 14×7 + 2)"
   ],
   "horaires": {
     "2026-10-31": [
@@ -192,6 +196,15 @@
       "story_a1": "20:31",
       "story_a2": "21:02",
       "note": "Vendredi. Stock vide : 035 + 036 fabriquées. Minutes différentes de la veille (10:19/18:12). Mode routine automatique."
+    },
+    "2026-11-14": {
+      "reel_037": "10:26",
+      "reel_038": "18:19",
+      "story_q1": "10:56",
+      "story_q2": "18:49",
+      "story_a1": "20:14",
+      "story_a2": "20:43",
+      "note": "Samedi. Stock vide : 037 + 038 fabriquées. Minutes différentes de la veille (11:07/18:54). Mode routine automatique."
     }
   }
 }
