@@ -1,5 +1,5 @@
 {
-  "next_number": 41,
+  "next_number": 43,
   "published_or_made": {
     "001": "chameaux (héritage de chameaux)",
     "002": "énigme (voir miniatures)",
@@ -40,7 +40,9 @@
     "037": "chaîne d'or de 7 maillons pour payer 7 nuits d'auberge (un maillon par nuit en cumul) : couper le 3e maillon → morceaux 1, 2, 4 (binaire, échanges d'un soir à l'autre)",
     "038": "course de chevaux à l'envers (le cheval qui arrive le dernier hérite) : échanger les chevaux, chacun veut devancer l'autre",
     "039": "pari du chevalier de Méré : au moins un 6 en 4 lancers d'un dé (≈51,8 % gagnant) contre au moins un double 6 en 24 lancers de 2 dés (≈49,1 % perdant) ; les chances se multiplient, règle de trois fausse",
-    "040": "cube de gâteau 3x3x3 en 27 morceaux : minimum 6 coups de couteau même en déplaçant/empilant les morceaux (le cube central a 6 faces, un coup n'en crée qu'une)"
+    "040": "cube de gâteau 3x3x3 en 27 morceaux : minimum 6 coups de couteau même en déplaçant/empilant les morceaux (le cube central a 6 faces, un coup n'en crée qu'une)",
+    "041": "le nombre 6174 (Kaprekar) : nombre à 4 chiffres non tous identiques, grand moins petit (chiffres triés), on répète : on tombe toujours sur 6174 en 7 étapes au plus (ex. 3524 → 3087 → 8352 → 6174)",
+    "042": "problème des 100 candidats (secrétaire) : refuser les 37 premiers (≈100/e) puis prendre le premier meilleur que tous les précédents : ≈37 % de trouver le meilleur contre 1 % au hasard"
   },
   "also_made_not_published": [
     "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -78,7 +80,9 @@
     "nombre de carrés sur un échiquier 8x8 : 204 (1+4+9+…+64)",
     "un lundi + 100 jours : mercredi (100 = 14×7 + 2)",
     "N + N = N x N (N non nul) : 2",
-    "3 pommes, tu en prends 2 : tu en as 2"
+    "3 pommes, tu en prends 2 : tu en as 2",
+    "un train électrique roule vers le nord, vent vers le sud : où va la fumée ? il n'y a pas de fumée",
+    "1 kg de plumes ou 1 kg de plomb : pareil"
   ],
   "horaires": {
     "2026-10-31": [
@@ -218,6 +222,15 @@
       "story_a1": "20:21",
       "story_a2": "20:49",
       "note": "Dimanche. Stock vide : 039 + 040 fabriquées. Minutes différentes de la veille (10:26/18:19). Mode routine automatique."
+    },
+    "2026-11-16": {
+      "reel_041": "10:23",
+      "reel_042": "19:02",
+      "story_q1": "10:53",
+      "story_q2": "19:32",
+      "story_a1": "20:41",
+      "story_a2": "21:09",
+      "note": "Lundi. Stock vide : 041 + 042 fabriquées. Minutes différentes de la veille (10:48/18:37). Mode routine automatique."
     }
   }
 }
