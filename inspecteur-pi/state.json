@@ -1,5 +1,5 @@
 {
-  "next_number": 45,
+  "next_number": 47,
   "published_or_made": {
     "001": "chameaux (héritage de chameaux)",
     "002": "énigme (voir miniatures)",
@@ -44,7 +44,9 @@
     "041": "le nombre 6174 (Kaprekar) : nombre à 4 chiffres non tous identiques, grand moins petit (chiffres triés), on répète : on tombe toujours sur 6174 en 7 étapes au plus (ex. 3524 → 3087 → 8352 → 6174)",
     "042": "problème des 100 candidats (secrétaire) : refuser les 37 premiers (≈100/e) puis prendre le premier meilleur que tous les précédents : ≈37 % de trouver le meilleur contre 1 % au hasard",
     "043": "trois fourmis sur les coins d'un triangle, chacune choisit au hasard un sens : proba qu'aucune collision = 2/8 = 1/4 (toutes dans le même sens), donc 3 chances sur 4 qu'au moins deux se rencontrent",
-    "044": "le chiffre barré : nombre à 4 chiffres, on mélange les chiffres, grand moins petit = multiple de 9 (ex. 6483 − 3864 = 2619), on barre un chiffre non nul : le chiffre manquant complète la somme des chiffres jusqu'au multiple de 9 suivant (12 → 18 : 6)"
+    "044": "le chiffre barré : nombre à 4 chiffres, on mélange les chiffres, grand moins petit = multiple de 9 (ex. 6483 − 3864 = 2619), on barre un chiffre non nul : le chiffre manquant complète la somme des chiffres jusqu'au multiple de 9 suivant (12 → 18 : 6)",
+    "045": "vitesse moyenne impossible : monter 1 km à 30 km/h, quelle vitesse en descente pour 60 de moyenne sur l'aller-retour ? Réponse : impossible (2 km à 60 = 2 min, la montée prend déjà 2 min ; à 90 en descente la moyenne n'est que 45)",
+    "046": "les sept ponts de Königsberg (Euler 1736) : traverser chaque pont une seule fois est impossible (4 zones de degrés 5, 3, 3, 3 : plus de 2 zones impaires)"
   },
   "also_made_not_published": [
     "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -86,7 +88,9 @@
     "un train électrique roule vers le nord, vent vers le sud : où va la fumée ? il n'y a pas de fumée",
     "1 kg de plumes ou 1 kg de plomb : pareil",
     "après-demain c'est dimanche : hier était jeudi",
-    "quatre 9 pour faire 100 : 99 + 9/9"
+    "quatre 9 pour faire 100 : 99 + 9/9",
+    "2 poules pondent 2 œufs en 2 jours → 6 poules en 6 jours : 18 œufs",
+    "J, F, M, A, M, J, ? → J (juillet, initiales des mois)"
   ],
   "horaires": {
     "2026-10-31": [
@@ -244,6 +248,29 @@
       "story_a1": "20:16",
       "story_a2": "20:47",
       "note": "Mardi. Stock vide : 043 + 044 fabriquées. Minutes différentes de la veille (10:23/19:02). Mode routine automatique."
+    },
+    "2026-11-18": {
+      "reel_045": "10:34",
+      "reel_046": "18:17",
+      "story_q1": "11:04",
+      "story_q2": "18:47",
+      "story_a1": "20:19",
+      "story_a2": "20:52",
+      "note": "Mercredi. Stock vide : 045 + 046 fabriquées. Minutes différentes de la veille (11:12/18:41). Mode routine automatique."
+    }
+  },
+  "boost_tracking": {
+    "045": {
+      "type": "vitesse moyenne (calcul, intuition piégée)",
+      "accroche": "Presque tout le monde se trompe ici !",
+      "appel": "enregistre",
+      "duree_s": 59.9
+    },
+    "046": {
+      "type": "graphes / parcours d'Euler (logique)",
+      "accroche": "Sept ponts, une règle : peux-tu y arriver ?",
+      "appel": "envoie (à quelqu'un qui va se tromper)",
+      "duree_s": 61.1
     }
   }
 }
