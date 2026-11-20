@@ -1,326 +1,351 @@
 {
-  "next_number": 51,
-  "published_or_made": {
-    "001": "chameaux (héritage de chameaux)",
-    "002": "énigme (voir miniatures)",
-    "003": "dilemme (sauver la fille)",
-    "004": "Monty Hall",
-    "005": "poison dans les glaçons",
-    "006": "camion sous un pont (pneus)",
-    "007": "coffre du braqueur et les 3 filles (somme/produit)",
-    "008": "neuf pièces et une balance (grotte)",
-    "009": "100 prisonniers, 1 ampoule, 1 interrupteur (compteur)",
-    "010": "deux sabliers (4 et 7 min) pour mesurer 9 minutes (bombe)",
-    "011": "vin et eau : une cuillère échangée entre deux verres",
-    "012": "trois cartes (rouge/rouge, bleue/bleue, mixte) : face rouge visible, proba que l'autre soit rouge = 2/3",
-    "013": "damier amputé de deux coins opposés et 31 dominos : impossible (coloration)",
-    "014": "poignées de main : 5 couples, 9 réponses distinctes 0–8, la femme de l'inspecteur a serré 4 mains",
-    "015": "duel à trois (1/3, 2/3, 100 %) : le plus faible doit tirer en l'air (≈40 % de survie)",
-    "016": "Pile-Face vs Pile-Pile : nombre moyen de lancers = 4 contre 6 (série qui s'arrête le plus vite)",
-    "017": "100 détenus en cercle, le 1 élimine le 2, le 3 le 4… : dernier survivant = n°73 (Josephus, 100 = 64 + 36)",
-    "018": "avion de 100 places : le 1er passager a perdu son billet et s'assoit au hasard, proba que le dernier ait sa place = 1/2",
-    "019": "pont, lampe et 4 personnes (1, 2, 5, 10 min) : temps minimum = 17 min (pas 19)",
-    "020": "corde autour de la Terre rallongée de 12 m : un homme debout passe dessous (≈1,91 m, indépendant du rayon)",
-    "021": "le nombre 1089 : nombre à 3 chiffres, à l'envers, soustraction, à l'envers, addition = toujours 1089",
-    "022": "jeu des 21 allumettes (on en prend 1 à 3, celui qui prend la dernière gagne) : prendre 1 puis laisser un multiple de 4",
-    "023": "le moine et la montagne : montée un jour, descente le lendemain, il passe forcément au même endroit à la même heure (deux moines qui se croisent)",
-    "024": "feuille de papier pliée 42 fois : dépasse la Lune (épaisseur 0,1 mm, ×2 à chaque pli, 440 000 km > 384 400 km)",
-    "025": "deux Parisiens ont le même nombre de cheveux (principe des tiroirs : >2 M habitants, 200 001 valeurs, au moins 10 en commun)",
-    "026": "paradoxe des anniversaires : 23 invités → 50,7 % de chance que deux aient le même anniversaire (253 paires ; 57 → 99 % ; 70 → 99,9 %)",
-    "027": "deux œufs et un immeuble de 100 étages : nombre minimal de lancers au pire des cas = 14 (paliers 14, 27, 39… ; 14+13+…+1 = 105 ≥ 100)",
-    "028": "nombre secret entre 1 et 1 000 000 : 20 questions oui/non suffisent (2^20 = 1 048 576 ; 19 ne suffisent pas, 2^19 = 524 288)",
-    "029": "100 casiers et 100 élèves (le k-ième change un casier sur k) : 10 casiers restent ouverts (carrés parfaits, nombre impair de diviseurs)",
-    "030": "marchand, balance à 2 plateaux et 4 poids pour peser de 1 à 40 kg : 1, 3, 9, 27 (poids sur les deux plateaux, base 3 équilibrée)",
-    "031": "dix prisonniers en file, chapeaux noir/blanc : 9 sauvés à coup sûr grâce à la parité des chapeaux blancs (le dernier annonce le code)",
-    "032": "trois caisses (pommes, oranges, mélange) aux étiquettes toutes fausses : piocher un fruit dans la caisse « mélange »",
-    "033": "test positif à une maladie rare (1/1000, fiabilité 99 %) : proba d'être vraiment malade ≈ 9 % (1 vrai malade pour ~10 faux positifs sur 1000)",
-    "034": "deux mèches de 1 h (vitesse irrégulière) pour mesurer 45 min : allumer A aux deux bouts et B à un bout, à 30 min allumer l'autre bout de B (+15 min)",
-    "035": "pierre jetée d'une barque dans un lac : le niveau de l'eau descend (la pierre dans la barque déplace son poids d'eau, au fond seulement son volume ; 1000 kg ≈ 1000 L contre ≈ 370 L)",
-    "036": "pièce truquée, tirage équitable : lancer deux fois, Pile-Face → A, Face-Pile → B, sinon on recommence (p(1-p) = (1-p)p ; astuce de von Neumann)",
-    "037": "chaîne d'or de 7 maillons pour payer 7 nuits d'auberge (un maillon par nuit en cumul) : couper le 3e maillon → morceaux 1, 2, 4 (binaire, échanges d'un soir à l'autre)",
-    "038": "course de chevaux à l'envers (le cheval qui arrive le dernier hérite) : échanger les chevaux, chacun veut devancer l'autre",
-    "039": "pari du chevalier de Méré : au moins un 6 en 4 lancers d'un dé (≈51,8 % gagnant) contre au moins un double 6 en 24 lancers de 2 dés (≈49,1 % perdant) ; les chances se multiplient, règle de trois fausse",
-    "040": "cube de gâteau 3x3x3 en 27 morceaux : minimum 6 coups de couteau même en déplaçant/empilant les morceaux (le cube central a 6 faces, un coup n'en crée qu'une)",
-    "041": "le nombre 6174 (Kaprekar) : nombre à 4 chiffres non tous identiques, grand moins petit (chiffres triés), on répète : on tombe toujours sur 6174 en 7 étapes au plus (ex. 3524 → 3087 → 8352 → 6174)",
-    "042": "problème des 100 candidats (secrétaire) : refuser les 37 premiers (≈100/e) puis prendre le premier meilleur que tous les précédents : ≈37 % de trouver le meilleur contre 1 % au hasard",
-    "043": "trois fourmis sur les coins d'un triangle, chacune choisit au hasard un sens : proba qu'aucune collision = 2/8 = 1/4 (toutes dans le même sens), donc 3 chances sur 4 qu'au moins deux se rencontrent",
-    "044": "le chiffre barré : nombre à 4 chiffres, on mélange les chiffres, grand moins petit = multiple de 9 (ex. 6483 − 3864 = 2619), on barre un chiffre non nul : le chiffre manquant complète la somme des chiffres jusqu'au multiple de 9 suivant (12 → 18 : 6)",
-    "045": "vitesse moyenne impossible : monter 1 km à 30 km/h, quelle vitesse en descente pour 60 de moyenne sur l'aller-retour ? Réponse : impossible (2 km à 60 = 2 min, la montée prend déjà 2 min ; à 90 en descente la moyenne n'est que 45)",
-    "046": "les sept ponts de Königsberg (Euler 1736) : traverser chaque pont une seule fois est impossible (4 zones de degrés 5, 3, 3, 3 : plus de 2 zones impaires)",
-    "047": "la pièce qui tourne autour d'une pièce identique (sans glisser) : 2 tours sur elle-même, pas 1 (centre sur un cercle de rayon double ; paradoxe des pièces)",
-    "048": "100 lancers de pièce : au moins 6 piles ou 6 faces d'affilée ≈ 81 % (calcul exact 80,7 %) ; un faux tirage humain évite les séries",
-    "049": "0,999... = 1 exactement (1/3 = 0,333..., x3 ; aucun nombre entre les deux) : égal, pas juste proche",
-    "050": "nombre de carrés d'un échiquier 8x8 : 204 (somme des carrés de 1 à 8 : 64+49+36+25+16+9+4+1), pas 64"
-  },
-  "also_made_not_published": [
-    "anniversaire de la directrice (type Cheryl) - jugé trop connu"
+ "next_number": 53,
+ "published_or_made": {
+  "001": "chameaux (héritage de chameaux)",
+  "002": "énigme (voir miniatures)",
+  "003": "dilemme (sauver la fille)",
+  "004": "Monty Hall",
+  "005": "poison dans les glaçons",
+  "006": "camion sous un pont (pneus)",
+  "007": "coffre du braqueur et les 3 filles (somme/produit)",
+  "008": "neuf pièces et une balance (grotte)",
+  "009": "100 prisonniers, 1 ampoule, 1 interrupteur (compteur)",
+  "010": "deux sabliers (4 et 7 min) pour mesurer 9 minutes (bombe)",
+  "011": "vin et eau : une cuillère échangée entre deux verres",
+  "012": "trois cartes (rouge/rouge, bleue/bleue, mixte) : face rouge visible, proba que l'autre soit rouge = 2/3",
+  "013": "damier amputé de deux coins opposés et 31 dominos : impossible (coloration)",
+  "014": "poignées de main : 5 couples, 9 réponses distinctes 0–8, la femme de l'inspecteur a serré 4 mains",
+  "015": "duel à trois (1/3, 2/3, 100 %) : le plus faible doit tirer en l'air (≈40 % de survie)",
+  "016": "Pile-Face vs Pile-Pile : nombre moyen de lancers = 4 contre 6 (série qui s'arrête le plus vite)",
+  "017": "100 détenus en cercle, le 1 élimine le 2, le 3 le 4… : dernier survivant = n°73 (Josephus, 100 = 64 + 36)",
+  "018": "avion de 100 places : le 1er passager a perdu son billet et s'assoit au hasard, proba que le dernier ait sa place = 1/2",
+  "019": "pont, lampe et 4 personnes (1, 2, 5, 10 min) : temps minimum = 17 min (pas 19)",
+  "020": "corde autour de la Terre rallongée de 12 m : un homme debout passe dessous (≈1,91 m, indépendant du rayon)",
+  "021": "le nombre 1089 : nombre à 3 chiffres, à l'envers, soustraction, à l'envers, addition = toujours 1089",
+  "022": "jeu des 21 allumettes (on en prend 1 à 3, celui qui prend la dernière gagne) : prendre 1 puis laisser un multiple de 4",
+  "023": "le moine et la montagne : montée un jour, descente le lendemain, il passe forcément au même endroit à la même heure (deux moines qui se croisent)",
+  "024": "feuille de papier pliée 42 fois : dépasse la Lune (épaisseur 0,1 mm, ×2 à chaque pli, 440 000 km > 384 400 km)",
+  "025": "deux Parisiens ont le même nombre de cheveux (principe des tiroirs : >2 M habitants, 200 001 valeurs, au moins 10 en commun)",
+  "026": "paradoxe des anniversaires : 23 invités → 50,7 % de chance que deux aient le même anniversaire (253 paires ; 57 → 99 % ; 70 → 99,9 %)",
+  "027": "deux œufs et un immeuble de 100 étages : nombre minimal de lancers au pire des cas = 14 (paliers 14, 27, 39… ; 14+13+…+1 = 105 ≥ 100)",
+  "028": "nombre secret entre 1 et 1 000 000 : 20 questions oui/non suffisent (2^20 = 1 048 576 ; 19 ne suffisent pas, 2^19 = 524 288)",
+  "029": "100 casiers et 100 élèves (le k-ième change un casier sur k) : 10 casiers restent ouverts (carrés parfaits, nombre impair de diviseurs)",
+  "030": "marchand, balance à 2 plateaux et 4 poids pour peser de 1 à 40 kg : 1, 3, 9, 27 (poids sur les deux plateaux, base 3 équilibrée)",
+  "031": "dix prisonniers en file, chapeaux noir/blanc : 9 sauvés à coup sûr grâce à la parité des chapeaux blancs (le dernier annonce le code)",
+  "032": "trois caisses (pommes, oranges, mélange) aux étiquettes toutes fausses : piocher un fruit dans la caisse « mélange »",
+  "033": "test positif à une maladie rare (1/1000, fiabilité 99 %) : proba d'être vraiment malade ≈ 9 % (1 vrai malade pour ~10 faux positifs sur 1000)",
+  "034": "deux mèches de 1 h (vitesse irrégulière) pour mesurer 45 min : allumer A aux deux bouts et B à un bout, à 30 min allumer l'autre bout de B (+15 min)",
+  "035": "pierre jetée d'une barque dans un lac : le niveau de l'eau descend (la pierre dans la barque déplace son poids d'eau, au fond seulement son volume ; 1000 kg ≈ 1000 L contre ≈ 370 L)",
+  "036": "pièce truquée, tirage équitable : lancer deux fois, Pile-Face → A, Face-Pile → B, sinon on recommence (p(1-p) = (1-p)p ; astuce de von Neumann)",
+  "037": "chaîne d'or de 7 maillons pour payer 7 nuits d'auberge (un maillon par nuit en cumul) : couper le 3e maillon → morceaux 1, 2, 4 (binaire, échanges d'un soir à l'autre)",
+  "038": "course de chevaux à l'envers (le cheval qui arrive le dernier hérite) : échanger les chevaux, chacun veut devancer l'autre",
+  "039": "pari du chevalier de Méré : au moins un 6 en 4 lancers d'un dé (≈51,8 % gagnant) contre au moins un double 6 en 24 lancers de 2 dés (≈49,1 % perdant) ; les chances se multiplient, règle de trois fausse",
+  "040": "cube de gâteau 3x3x3 en 27 morceaux : minimum 6 coups de couteau même en déplaçant/empilant les morceaux (le cube central a 6 faces, un coup n'en crée qu'une)",
+  "041": "le nombre 6174 (Kaprekar) : nombre à 4 chiffres non tous identiques, grand moins petit (chiffres triés), on répète : on tombe toujours sur 6174 en 7 étapes au plus (ex. 3524 → 3087 → 8352 → 6174)",
+  "042": "problème des 100 candidats (secrétaire) : refuser les 37 premiers (≈100/e) puis prendre le premier meilleur que tous les précédents : ≈37 % de trouver le meilleur contre 1 % au hasard",
+  "043": "trois fourmis sur les coins d'un triangle, chacune choisit au hasard un sens : proba qu'aucune collision = 2/8 = 1/4 (toutes dans le même sens), donc 3 chances sur 4 qu'au moins deux se rencontrent",
+  "044": "le chiffre barré : nombre à 4 chiffres, on mélange les chiffres, grand moins petit = multiple de 9 (ex. 6483 − 3864 = 2619), on barre un chiffre non nul : le chiffre manquant complète la somme des chiffres jusqu'au multiple de 9 suivant (12 → 18 : 6)",
+  "045": "vitesse moyenne impossible : monter 1 km à 30 km/h, quelle vitesse en descente pour 60 de moyenne sur l'aller-retour ? Réponse : impossible (2 km à 60 = 2 min, la montée prend déjà 2 min ; à 90 en descente la moyenne n'est que 45)",
+  "046": "les sept ponts de Königsberg (Euler 1736) : traverser chaque pont une seule fois est impossible (4 zones de degrés 5, 3, 3, 3 : plus de 2 zones impaires)",
+  "047": "la pièce qui tourne autour d'une pièce identique (sans glisser) : 2 tours sur elle-même, pas 1 (centre sur un cercle de rayon double ; paradoxe des pièces)",
+  "048": "100 lancers de pièce : au moins 6 piles ou 6 faces d'affilée ≈ 81 % (calcul exact 80,7 %) ; un faux tirage humain évite les séries",
+  "049": "0,999... = 1 exactement (1/3 = 0,333..., x3 ; aucun nombre entre les deux) : égal, pas juste proche",
+  "050": "nombre de carrés d'un échiquier 8x8 : 204 (somme des carrés de 1 à 8 : 64+49+36+25+16+9+4+1), pas 64",
+  "051": "plus 50 % puis moins 50 % : pas le prix de départ (manteau 100 € → 150 € → 75 €, soit 25 % de moins ; pour revenir à 100 il faut remonter d'un tiers)",
+  "052": "deux enfants, au moins une fille (pas deux garçons) : proba que les deux soient des filles = 1/3 (FF, FG, GF), pas 1/2"
+ },
+ "also_made_not_published": [
+  "anniversaire de la directrice (type Cheryl) - jugé trop connu"
+ ],
+ "errors": [],
+ "stories": [
+  "4 fils + 1 soeur (5 enfants)",
+  "les pas",
+  "dépasser le 2e en course = 2e",
+  "nénuphar qui double chaque jour, plein au jour 48 : moitié au jour 47",
+  "5 machines/5 objets/5 min → 100 machines : 5 min",
+  "3 comprimés toutes les 30 min → 1 heure",
+  "les aiguilles d'une horloge se superposent 22 fois en 24 h",
+  "la bougie (grande jeune, petite vieille)",
+  "17 moutons, tous sauf 9 s'enfuient : il en reste 9",
+  "escargot +3 m le jour, -2 m la nuit, puits de 10 m : 8 jours",
+  "brique = 1 kg + une demi-brique : 2 kg",
+  "portrait : le père de cet homme est le fils de mon père (fils unique) : son fils",
+  "soustraire 5 de 25 : une seule fois",
+  "deux pièces font 3 € dont l'une n'est pas 1 € : 2 € + 1 €",
+  "tournoi à élimination directe, 100 joueurs : 99 matchs (1 éliminé par match)",
+  "dernier chiffre de 7×7×…(2026 fois) : cycle 7-9-3-1, 2026 mod 4 = 2 → 9",
+  "batte + balle = 1,10 € (batte = balle + 1 €) : balle 5 centimes",
+  "horloge : 6 coups en 5 s → 12 coups en 11 s (on compte les pauses)",
+  "de 1 à 100, combien de fois écrit-on le chiffre 9 : 20",
+  "6 verres (3 pleins, 3 vides) : alterner en bougeant un seul verre (verser le 2e dans le 5e)",
+  "2 pères + 2 fils, 3 poissons un chacun : 3 personnes (grand-père, père, fils)",
+  "combien de mois ont 28 jours : les 12",
+  "tablette de chocolat 6 x 8 : 47 coups (1 morceau de plus par cassure)",
+  "zéros à la fin de 100! : 24 (20 multiples de 5 + 4 multiples de 25)",
+  "nombre à 2 chiffres, somme 9, inversé +27 : 36",
+  "suite 1, 11, 21, 1211, 111221 (look-and-say) : 312211",
+  "somme de 1 à 100 : 5050 (50 paires de 101, Gauss)",
+  "5 filles Lala, Lélé, Lili, Lolo… : Lulu (les voyelles A E I O U)",
+  "nombre de carrés sur un échiquier 8x8 : 204 (1+4+9+…+64)",
+  "un lundi + 100 jours : mercredi (100 = 14×7 + 2)",
+  "N + N = N x N (N non nul) : 2",
+  "3 pommes, tu en prends 2 : tu en as 2",
+  "un train électrique roule vers le nord, vent vers le sud : où va la fumée ? il n'y a pas de fumée",
+  "1 kg de plumes ou 1 kg de plomb : pareil",
+  "après-demain c'est dimanche : hier était jeudi",
+  "quatre 9 pour faire 100 : 99 + 9/9",
+  "2 poules pondent 2 œufs en 2 jours → 6 poules en 6 jours : 18 œufs",
+  "J, F, M, A, M, J, ? → J (juillet, initiales des mois)",
+  "une allumette, une bougie, une lampe, une cheminée : on allume l'allumette d'abord",
+  "7+7/7+7x7-7 : priorités des opérations, 50",
+  "suite look-and-say 1, 11, 21, 1211, 111221 : 312211 (on décrit le nombre précédent)",
+  "plus on m'enlève, plus je grandis : un trou",
+  "suite 2, 3, 5, 7, 11 (nombres premiers) : 13",
+  "un coq pond un œuf sur un toit pointu : aucun côté, un coq ne pond pas"
+ ],
+ "horaires": {
+  "2026-10-31": [
+   "10:00",
+   "18:00 (créneaux Metricool, avant consigne de variation)"
   ],
-  "errors": [],
-  "stories": [
-    "4 fils + 1 soeur (5 enfants)",
-    "les pas",
-    "dépasser le 2e en course = 2e",
-    "nénuphar qui double chaque jour, plein au jour 48 : moitié au jour 47",
-    "5 machines/5 objets/5 min → 100 machines : 5 min",
-    "3 comprimés toutes les 30 min → 1 heure",
-    "les aiguilles d'une horloge se superposent 22 fois en 24 h",
-    "la bougie (grande jeune, petite vieille)",
-    "17 moutons, tous sauf 9 s'enfuient : il en reste 9",
-    "escargot +3 m le jour, -2 m la nuit, puits de 10 m : 8 jours",
-    "brique = 1 kg + une demi-brique : 2 kg",
-    "portrait : le père de cet homme est le fils de mon père (fils unique) : son fils",
-    "soustraire 5 de 25 : une seule fois",
-    "deux pièces font 3 € dont l'une n'est pas 1 € : 2 € + 1 €",
-    "tournoi à élimination directe, 100 joueurs : 99 matchs (1 éliminé par match)",
-    "dernier chiffre de 7×7×…(2026 fois) : cycle 7-9-3-1, 2026 mod 4 = 2 → 9",
-    "batte + balle = 1,10 € (batte = balle + 1 €) : balle 5 centimes",
-    "horloge : 6 coups en 5 s → 12 coups en 11 s (on compte les pauses)",
-    "de 1 à 100, combien de fois écrit-on le chiffre 9 : 20",
-    "6 verres (3 pleins, 3 vides) : alterner en bougeant un seul verre (verser le 2e dans le 5e)",
-    "2 pères + 2 fils, 3 poissons un chacun : 3 personnes (grand-père, père, fils)",
-    "combien de mois ont 28 jours : les 12",
-    "tablette de chocolat 6 x 8 : 47 coups (1 morceau de plus par cassure)",
-    "zéros à la fin de 100! : 24 (20 multiples de 5 + 4 multiples de 25)",
-    "nombre à 2 chiffres, somme 9, inversé +27 : 36",
-    "suite 1, 11, 21, 1211, 111221 (look-and-say) : 312211",
-    "somme de 1 à 100 : 5050 (50 paires de 101, Gauss)",
-    "5 filles Lala, Lélé, Lili, Lolo… : Lulu (les voyelles A E I O U)",
-    "nombre de carrés sur un échiquier 8x8 : 204 (1+4+9+…+64)",
-    "un lundi + 100 jours : mercredi (100 = 14×7 + 2)",
-    "N + N = N x N (N non nul) : 2",
-    "3 pommes, tu en prends 2 : tu en as 2",
-    "un train électrique roule vers le nord, vent vers le sud : où va la fumée ? il n'y a pas de fumée",
-    "1 kg de plumes ou 1 kg de plomb : pareil",
-    "après-demain c'est dimanche : hier était jeudi",
-    "quatre 9 pour faire 100 : 99 + 9/9",
-    "2 poules pondent 2 œufs en 2 jours → 6 poules en 6 jours : 18 œufs",
-    "J, F, M, A, M, J, ? → J (juillet, initiales des mois)",
-    "une allumette, une bougie, une lampe, une cheminée : on allume l'allumette d'abord",
-    "7+7/7+7x7-7 : priorités des opérations, 50",
-    "suite look-and-say 1, 11, 21, 1211, 111221 : 312211 (on décrit le nombre précédent)",
-    "plus on m'enlève, plus je grandis : un trou"
+  "2026-11-01": [
+   "reel #012 12:23",
+   "reel #013 19:12",
+   "story q1 12:53",
+   "story q2 19:42",
+   "story a1 20:46",
+   "story a2 20:56 (créneaux Metricool les mieux notés 10h/12h/18h/19h ; 10h et 18h évités car utilisés la veille)"
   ],
-  "horaires": {
-    "2026-10-31": [
-      "10:00",
-      "18:00 (créneaux Metricool, avant consigne de variation)"
-    ],
-    "2026-11-01": [
-      "reel #012 12:23",
-      "reel #013 19:12",
-      "story q1 12:53",
-      "story q2 19:42",
-      "story a1 20:46",
-      "story a2 20:56 (créneaux Metricool les mieux notés 10h/12h/18h/19h ; 10h et 18h évités car utilisés la veille)"
-    ],
-    "2026-11-02": {
-      "reel_014": "10:17",
-      "reel_015": "18:28",
-      "story_q1": "10:47",
-      "story_q2": "18:58",
-      "story_a1": "21:08",
-      "story_a2": "21:18",
-      "note": "Top heures Metricool : IG 10/11/12/9h ; TikTok 18/10/12/16h ; 10h+18h = meilleur couple commun espacé de ≥4 h"
-    },
-    "2026-11-03": {
-      "reel_016": "12:07",
-      "reel_017": "18:16",
-      "story_q1": "12:37",
-      "story_q2": "18:46",
-      "story_a1": "20:23",
-      "story_a2": "20:33",
-      "note": "Mardi : IG top 10h(4942)/18h(4788)/12h(4656)/11h(4642) ; TikTok 10h/18h/12h. 10h et 18h déjà utilisés la veille (10:17 / 18:28) → 12h et 18h avec minutes différentes (écart 6 h)."
-    },
-    "2026-11-04": {
-      "reel_018": "14:07",
-      "reel_019": "18:21",
-      "story_q1": "14:37",
-      "story_q2": "18:51",
-      "story_a1": "21:17",
-      "story_a2": "21:27",
-      "note": "Mercredi. Exécution tardive (reprise à 12:22 Paris, créneaux du matin passés). IG : 10h(6506)/11h/12h/9h ; TikTok : 10h/18h/12h/16h. Il restait 16h-19h (aucun couple ≥4h parmi les 4 meilleurs restants) : 18h (meilleur créneau commun) + 14h (≥4h d'écart, 14h≈16h en score IG) avec minutes :07/:21 différentes de la veille (12:07/18:16)."
-    },
-    "2026-11-05": {
-      "reel_020": "10:12",
-      "reel_021": "18:34",
-      "story_q1": "10:42",
-      "story_q2": "19:04",
-      "story_a1": "20:41",
-      "story_a2": "21:06",
-      "note": "Mode manuel. Jeudi. IG top : 10h(6275)/12h/11h/18h(5078) ; TikTok : 10h(1471)/18h/12h/16h. 10h et 18h = meilleur couple commun espacé de 8 h ; minutes différentes de la veille (14:07/18:21)."
-    },
-    "2026-11-06": {
-      "reel_022": "12:19",
-      "reel_023": "18:09",
-      "story_q1": "12:49",
-      "story_q2": "18:39",
-      "story_a1": "20:36",
-      "story_a2": "21:04",
-      "note": "Mode manuel. Vendredi. IG top : 10h(6734)/11h/12h(5909)/9h ; TikTok : 10h(1379)/12h(1251)/18h(1222)/16h. Aucun couple >=4h dans le top 4 IG : 12h (3e IG, 2e TikTok) + 18h (3e TikTok) espacés de 6 h, minutes différentes de la veille (10:12/18:34)."
-    },
-    "2026-11-07": {
-      "reel_024": "10:23",
-      "reel_025": "18:36",
-      "story_q1": "10:53",
-      "story_q2": "19:06",
-      "story_a1": "20:34",
-      "story_a2": "21:02",
-      "note": "Mode manuel. Samedi. IG top : 10h(3409)/12h(2822)/11h(2816)/18h(2393) ; TikTok : 10h(852)/12h(815)/18h(709)/16h(620). 10h et 18h = meilleur couple commun espacé de 8 h ; minutes différentes de la veille (12:19/18:09)."
-    },
-    "2026-11-08": {
-      "reel_025": "10:41",
-      "reel_026": "18:14",
-      "story_q1": "11:11",
-      "story_q2": "18:44",
-      "story_a1": "20:27",
-      "story_a2": "20:52",
-      "note": "Dimanche. Stock 025 + nouvelle 026. 10h/18h, minutes différentes de la veille (10:23/18:36). Mode routine automatique."
-    },
-    "2026-11-09": {
-      "reel_027": "10:08",
-      "reel_028": "18:47",
-      "story_q1": "10:38",
-      "story_q2": "19:17",
-      "story_a1": "20:12",
-      "story_a2": "20:41",
-      "note": "Lundi. Stock vide : 027 + 028 fabriquées. Minutes différentes de la veille (10:41/18:14). Mode routine automatique."
-    },
-    "2026-11-10": {
-      "reel_029": "10:34",
-      "reel_030": "18:23",
-      "story_q1": "11:04",
-      "story_q2": "18:53",
-      "story_a1": "20:19",
-      "story_a2": "20:46",
-      "note": "Mardi. Stock vide : 029 + 030 fabriquées. Minutes différentes de la veille (10:08/18:47). Mode routine automatique."
-    },
-    "2026-11-11": {
-      "reel_031": "13:40",
-      "reel_032": "18:37",
-      "note": "Reprogrammées le 11/11 à 13:25 sur demande de l'utilisateur (la session de la veille ne s'était pas lancée) : vidéos 031/032 et leurs 4 stories aujourd'hui.",
-      "story_q1": "14:10",
-      "story_q2": "19:07",
-      "story_a1": "20:08",
-      "story_a2": "20:39"
-    },
-    "2026-11-12": {
-      "reel_033": "10:19",
-      "reel_034": "18:12",
-      "story_q1": "10:49",
-      "story_q2": "18:42",
-      "story_a1": "20:23",
-      "story_a2": "20:51",
-      "note": "Jeudi. Stock vide : 033 + 034 fabriquées. Minutes différentes de la veille (13:40/18:37). Mode routine automatique."
-    },
-    "2026-11-13": {
-      "reel_035": "11:07",
-      "reel_036": "18:54",
-      "story_q1": "11:37",
-      "story_q2": "19:24",
-      "story_a1": "20:31",
-      "story_a2": "21:02",
-      "note": "Vendredi. Stock vide : 035 + 036 fabriquées. Minutes différentes de la veille (10:19/18:12). Mode routine automatique."
-    },
-    "2026-11-14": {
-      "reel_037": "10:26",
-      "reel_038": "18:19",
-      "story_q1": "10:56",
-      "story_q2": "18:49",
-      "story_a1": "20:14",
-      "story_a2": "20:43",
-      "note": "Samedi. Stock vide : 037 + 038 fabriquées. Minutes différentes de la veille (11:07/18:54). Mode routine automatique."
-    },
-    "2026-11-15": {
-      "reel_039": "10:48",
-      "reel_040": "18:37",
-      "story_q1": "11:18",
-      "story_q2": "19:07",
-      "story_a1": "20:21",
-      "story_a2": "20:49",
-      "note": "Dimanche. Stock vide : 039 + 040 fabriquées. Minutes différentes de la veille (10:26/18:19). Mode routine automatique."
-    },
-    "2026-11-16": {
-      "reel_041": "10:23",
-      "reel_042": "19:02",
-      "story_q1": "10:53",
-      "story_q2": "19:32",
-      "story_a1": "20:41",
-      "story_a2": "21:09",
-      "note": "Lundi. Stock vide : 041 + 042 fabriquées. Minutes différentes de la veille (10:48/18:37). Mode routine automatique."
-    },
-    "2026-11-17": {
-      "reel_043": "11:12",
-      "reel_044": "18:41",
-      "story_q1": "11:42",
-      "story_q2": "19:11",
-      "story_a1": "20:16",
-      "story_a2": "20:47",
-      "note": "Mardi. Stock vide : 043 + 044 fabriquées. Minutes différentes de la veille (10:23/19:02). Mode routine automatique."
-    },
-    "2026-11-18": {
-      "reel_045": "10:34",
-      "reel_046": "18:17",
-      "story_q1": "11:04",
-      "story_q2": "18:47",
-      "story_a1": "20:19",
-      "story_a2": "20:52",
-      "note": "Mercredi. Stock vide : 045 + 046 fabriquées. Minutes différentes de la veille (11:12/18:41). Mode routine automatique."
-    },
-    "2026-11-19": {
-      "reel_047": "11:27",
-      "reel_048": "18:52",
-      "story_q1": "11:57",
-      "story_q2": "19:22",
-      "story_a1": "20:08",
-      "story_a2": "20:41",
-      "note": "Jeudi. Stock vide : 047 + 048 fabriquées. Minutes différentes de la veille (10:34/18:17). Mode routine automatique."
-    },
-    "2026-11-20": {
-      "reel_049": "10:36",
-      "reel_050": "18:14",
-      "story_q1": "11:06",
-      "story_q2": "18:44",
-      "story_a1": "20:17",
-      "story_a2": "20:49",
-      "note": "Vendredi. Stock vide : 049 + 050 fabriquées. Minutes différentes de la veille (11:27/18:52). Mode routine automatique. Voix démarrée à 0 s (silence initial TTS retiré)."
-    }
+  "2026-11-02": {
+   "reel_014": "10:17",
+   "reel_015": "18:28",
+   "story_q1": "10:47",
+   "story_q2": "18:58",
+   "story_a1": "21:08",
+   "story_a2": "21:18",
+   "note": "Top heures Metricool : IG 10/11/12/9h ; TikTok 18/10/12/16h ; 10h+18h = meilleur couple commun espacé de ≥4 h"
   },
-  "boost_tracking": {
-    "045": {
-      "type": "vitesse moyenne (calcul, intuition piégée)",
-      "accroche": "Presque tout le monde se trompe ici !",
-      "appel": "enregistre",
-      "duree_s": 59.9
-    },
-    "046": {
-      "type": "graphes / parcours d'Euler (logique)",
-      "accroche": "Sept ponts, une règle : peux-tu y arriver ?",
-      "appel": "envoie (à quelqu'un qui va se tromper)",
-      "duree_s": 61.1
-    },
-    "047": {
-      "type": "géométrie (paradoxe contre-intuitif, pièces)",
-      "accroche": "Combien de tours ? Tu vas te tromper !",
-      "appel": "enregistre",
-      "duree_s": 56.8
-    },
-    "048": {
-      "type": "probabilités (séries au hasard, intuition piégée)",
-      "accroche": "Six piles d'affilée : rare ou normal ?",
-      "appel": "envoie (à quelqu'un qui va se tromper)",
-      "duree_s": 58.4
-    },
-    "049": {
-      "type": "arithmétique / infini (intuition piégée)",
-      "accroche": "Zéro virgule neuf, neuf, neuf, égale un ?",
-      "appel": "enregistre",
-      "duree_s": 70.9
-    },
-    "050": {
-      "type": "combinatoire / géométrie (comptage, intuition piégée)",
-      "accroche": "Combien de carrés sur un échiquier ?",
-      "appel": "envoie (à quelqu'un qui va se tromper)",
-      "duree_s": 65.2
-    }
+  "2026-11-03": {
+   "reel_016": "12:07",
+   "reel_017": "18:16",
+   "story_q1": "12:37",
+   "story_q2": "18:46",
+   "story_a1": "20:23",
+   "story_a2": "20:33",
+   "note": "Mardi : IG top 10h(4942)/18h(4788)/12h(4656)/11h(4642) ; TikTok 10h/18h/12h. 10h et 18h déjà utilisés la veille (10:17 / 18:28) → 12h et 18h avec minutes différentes (écart 6 h)."
+  },
+  "2026-11-04": {
+   "reel_018": "14:07",
+   "reel_019": "18:21",
+   "story_q1": "14:37",
+   "story_q2": "18:51",
+   "story_a1": "21:17",
+   "story_a2": "21:27",
+   "note": "Mercredi. Exécution tardive (reprise à 12:22 Paris, créneaux du matin passés). IG : 10h(6506)/11h/12h/9h ; TikTok : 10h/18h/12h/16h. Il restait 16h-19h (aucun couple ≥4h parmi les 4 meilleurs restants) : 18h (meilleur créneau commun) + 14h (≥4h d'écart, 14h≈16h en score IG) avec minutes :07/:21 différentes de la veille (12:07/18:16)."
+  },
+  "2026-11-05": {
+   "reel_020": "10:12",
+   "reel_021": "18:34",
+   "story_q1": "10:42",
+   "story_q2": "19:04",
+   "story_a1": "20:41",
+   "story_a2": "21:06",
+   "note": "Mode manuel. Jeudi. IG top : 10h(6275)/12h/11h/18h(5078) ; TikTok : 10h(1471)/18h/12h/16h. 10h et 18h = meilleur couple commun espacé de 8 h ; minutes différentes de la veille (14:07/18:21)."
+  },
+  "2026-11-06": {
+   "reel_022": "12:19",
+   "reel_023": "18:09",
+   "story_q1": "12:49",
+   "story_q2": "18:39",
+   "story_a1": "20:36",
+   "story_a2": "21:04",
+   "note": "Mode manuel. Vendredi. IG top : 10h(6734)/11h/12h(5909)/9h ; TikTok : 10h(1379)/12h(1251)/18h(1222)/16h. Aucun couple >=4h dans le top 4 IG : 12h (3e IG, 2e TikTok) + 18h (3e TikTok) espacés de 6 h, minutes différentes de la veille (10:12/18:34)."
+  },
+  "2026-11-07": {
+   "reel_024": "10:23",
+   "reel_025": "18:36",
+   "story_q1": "10:53",
+   "story_q2": "19:06",
+   "story_a1": "20:34",
+   "story_a2": "21:02",
+   "note": "Mode manuel. Samedi. IG top : 10h(3409)/12h(2822)/11h(2816)/18h(2393) ; TikTok : 10h(852)/12h(815)/18h(709)/16h(620). 10h et 18h = meilleur couple commun espacé de 8 h ; minutes différentes de la veille (12:19/18:09)."
+  },
+  "2026-11-08": {
+   "reel_025": "10:41",
+   "reel_026": "18:14",
+   "story_q1": "11:11",
+   "story_q2": "18:44",
+   "story_a1": "20:27",
+   "story_a2": "20:52",
+   "note": "Dimanche. Stock 025 + nouvelle 026. 10h/18h, minutes différentes de la veille (10:23/18:36). Mode routine automatique."
+  },
+  "2026-11-09": {
+   "reel_027": "10:08",
+   "reel_028": "18:47",
+   "story_q1": "10:38",
+   "story_q2": "19:17",
+   "story_a1": "20:12",
+   "story_a2": "20:41",
+   "note": "Lundi. Stock vide : 027 + 028 fabriquées. Minutes différentes de la veille (10:41/18:14). Mode routine automatique."
+  },
+  "2026-11-10": {
+   "reel_029": "10:34",
+   "reel_030": "18:23",
+   "story_q1": "11:04",
+   "story_q2": "18:53",
+   "story_a1": "20:19",
+   "story_a2": "20:46",
+   "note": "Mardi. Stock vide : 029 + 030 fabriquées. Minutes différentes de la veille (10:08/18:47). Mode routine automatique."
+  },
+  "2026-11-11": {
+   "reel_031": "13:40",
+   "reel_032": "18:37",
+   "note": "Reprogrammées le 11/11 à 13:25 sur demande de l'utilisateur (la session de la veille ne s'était pas lancée) : vidéos 031/032 et leurs 4 stories aujourd'hui.",
+   "story_q1": "14:10",
+   "story_q2": "19:07",
+   "story_a1": "20:08",
+   "story_a2": "20:39"
+  },
+  "2026-11-12": {
+   "reel_033": "10:19",
+   "reel_034": "18:12",
+   "story_q1": "10:49",
+   "story_q2": "18:42",
+   "story_a1": "20:23",
+   "story_a2": "20:51",
+   "note": "Jeudi. Stock vide : 033 + 034 fabriquées. Minutes différentes de la veille (13:40/18:37). Mode routine automatique."
+  },
+  "2026-11-13": {
+   "reel_035": "11:07",
+   "reel_036": "18:54",
+   "story_q1": "11:37",
+   "story_q2": "19:24",
+   "story_a1": "20:31",
+   "story_a2": "21:02",
+   "note": "Vendredi. Stock vide : 035 + 036 fabriquées. Minutes différentes de la veille (10:19/18:12). Mode routine automatique."
+  },
+  "2026-11-14": {
+   "reel_037": "10:26",
+   "reel_038": "18:19",
+   "story_q1": "10:56",
+   "story_q2": "18:49",
+   "story_a1": "20:14",
+   "story_a2": "20:43",
+   "note": "Samedi. Stock vide : 037 + 038 fabriquées. Minutes différentes de la veille (11:07/18:54). Mode routine automatique."
+  },
+  "2026-11-15": {
+   "reel_039": "10:48",
+   "reel_040": "18:37",
+   "story_q1": "11:18",
+   "story_q2": "19:07",
+   "story_a1": "20:21",
+   "story_a2": "20:49",
+   "note": "Dimanche. Stock vide : 039 + 040 fabriquées. Minutes différentes de la veille (10:26/18:19). Mode routine automatique."
+  },
+  "2026-11-16": {
+   "reel_041": "10:23",
+   "reel_042": "19:02",
+   "story_q1": "10:53",
+   "story_q2": "19:32",
+   "story_a1": "20:41",
+   "story_a2": "21:09",
+   "note": "Lundi. Stock vide : 041 + 042 fabriquées. Minutes différentes de la veille (10:48/18:37). Mode routine automatique."
+  },
+  "2026-11-17": {
+   "reel_043": "11:12",
+   "reel_044": "18:41",
+   "story_q1": "11:42",
+   "story_q2": "19:11",
+   "story_a1": "20:16",
+   "story_a2": "20:47",
+   "note": "Mardi. Stock vide : 043 + 044 fabriquées. Minutes différentes de la veille (10:23/19:02). Mode routine automatique."
+  },
+  "2026-11-18": {
+   "reel_045": "10:34",
+   "reel_046": "18:17",
+   "story_q1": "11:04",
+   "story_q2": "18:47",
+   "story_a1": "20:19",
+   "story_a2": "20:52",
+   "note": "Mercredi. Stock vide : 045 + 046 fabriquées. Minutes différentes de la veille (11:12/18:41). Mode routine automatique."
+  },
+  "2026-11-19": {
+   "reel_047": "11:27",
+   "reel_048": "18:52",
+   "story_q1": "11:57",
+   "story_q2": "19:22",
+   "story_a1": "20:08",
+   "story_a2": "20:41",
+   "note": "Jeudi. Stock vide : 047 + 048 fabriquées. Minutes différentes de la veille (10:34/18:17). Mode routine automatique."
+  },
+  "2026-11-20": {
+   "reel_049": "10:36",
+   "reel_050": "18:14",
+   "story_q1": "11:06",
+   "story_q2": "18:44",
+   "story_a1": "20:17",
+   "story_a2": "20:49",
+   "note": "Vendredi. Stock vide : 049 + 050 fabriquées. Minutes différentes de la veille (11:27/18:52). Mode routine automatique. Voix démarrée à 0 s (silence initial TTS retiré)."
+  },
+  "2026-11-21": {
+   "reel_051": "10:52",
+   "reel_052": "19:03",
+   "story_q1": "11:22",
+   "story_q2": "19:33",
+   "story_a1": "20:12",
+   "story_a2": "20:41",
+   "note": "Samedi. Stock vide : 051 + 052 fabriquées. Minutes différentes de la veille (10:36/18:14). Mode routine automatique."
   }
+ },
+ "boost_tracking": {
+  "045": {
+   "type": "vitesse moyenne (calcul, intuition piégée)",
+   "accroche": "Presque tout le monde se trompe ici !",
+   "appel": "enregistre",
+   "duree_s": 59.9
+  },
+  "046": {
+   "type": "graphes / parcours d'Euler (logique)",
+   "accroche": "Sept ponts, une règle : peux-tu y arriver ?",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 61.1
+  },
+  "047": {
+   "type": "géométrie (paradoxe contre-intuitif, pièces)",
+   "accroche": "Combien de tours ? Tu vas te tromper !",
+   "appel": "enregistre",
+   "duree_s": 56.8
+  },
+  "048": {
+   "type": "probabilités (séries au hasard, intuition piégée)",
+   "accroche": "Six piles d'affilée : rare ou normal ?",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 58.4
+  },
+  "049": {
+   "type": "arithmétique / infini (intuition piégée)",
+   "accroche": "Zéro virgule neuf, neuf, neuf, égale un ?",
+   "appel": "enregistre",
+   "duree_s": 70.9
+  },
+  "050": {
+   "type": "combinatoire / géométrie (comptage, intuition piégée)",
+   "accroche": "Combien de carrés sur un échiquier ?",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 65.2
+  },
+  "051": {
+   "type": "pourcentages / arithmétique (intuition piégée)",
+   "accroche": "Plus cinquante pour cent, puis moins cinquante ?",
+   "appel": "enregistre",
+   "duree_s": 57.2
+  },
+  "052": {
+   "type": "probabilités conditionnelles (intuition piégée)",
+   "accroche": "Deux enfants, dont une fille : et l'autre ?",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 61.7
+  }
+ }
 }
