@@ -1,5 +1,5 @@
 {
- "next_number": 53,
+ "next_number": 55,
  "published_or_made": {
   "001": "chameaux (héritage de chameaux)",
   "002": "énigme (voir miniatures)",
@@ -52,7 +52,9 @@
   "049": "0,999... = 1 exactement (1/3 = 0,333..., x3 ; aucun nombre entre les deux) : égal, pas juste proche",
   "050": "nombre de carrés d'un échiquier 8x8 : 204 (somme des carrés de 1 à 8 : 64+49+36+25+16+9+4+1), pas 64",
   "051": "plus 50 % puis moins 50 % : pas le prix de départ (manteau 100 € → 150 € → 75 €, soit 25 % de moins ; pour revenir à 100 il faut remonter d'un tiers)",
-  "052": "deux enfants, au moins une fille (pas deux garçons) : proba que les deux soient des filles = 1/3 (FF, FG, GF), pas 1/2"
+  "052": "deux enfants, au moins une fille (pas deux garçons) : proba que les deux soient des filles = 1/3 (FF, FG, GF), pas 1/2",
+  "053": "l'euro manquant de l'hôtel (trois amis, chambre à 25 €, groom) : aucun euro ne manque ; les 27 € payés contiennent déjà les 2 € du groom (25 + 2 = 27 ; 27 + 3 rendus = 30), on additionne des sommes qui ne vont pas ensemble",
+  "054": "la mouche et les deux trains : trains à 100 km l'un de l'autre, 50 km/h chacun, mouche à 75 km/h : les trains se croisent en 1 h, la mouche parcourt 75 km (compter le temps, pas la série infinie de trajets)"
  },
  "also_made_not_published": [
   "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -102,7 +104,9 @@
   "suite look-and-say 1, 11, 21, 1211, 111221 : 312211 (on décrit le nombre précédent)",
   "plus on m'enlève, plus je grandis : un trou",
   "suite 2, 3, 5, 7, 11 (nombres premiers) : 13",
-  "un coq pond un œuf sur un toit pointu : aucun côté, un coq ne pond pas"
+  "un coq pond un œuf sur un toit pointu : aucun côté, un coq ne pond pas",
+  "suite 1, 4, 9, 16 : 25 (carrés parfaits)",
+  "qu'est-ce qui monte sans jamais redescendre : ton âge"
  ],
  "horaires": {
   "2026-10-31": [
@@ -296,6 +300,15 @@
    "story_a1": "20:12",
    "story_a2": "20:41",
    "note": "Samedi. Stock vide : 051 + 052 fabriquées. Minutes différentes de la veille (10:36/18:14). Mode routine automatique."
+  },
+  "2026-11-22": {
+   "reel_053": "10:21",
+   "reel_054": "18:37",
+   "story_q1": "10:51",
+   "story_q2": "19:07",
+   "story_a1": "20:23",
+   "story_a2": "20:49",
+   "note": "Dimanche. Stock vide (seule la 021, déjà envoyée TikTok, ignorée) : 053 + 054 fabriquées. Minutes différentes de la veille (10:52/19:03). Mode routine automatique."
   }
  },
  "boost_tracking": {
@@ -346,6 +359,18 @@
    "accroche": "Deux enfants, dont une fille : et l'autre ?",
    "appel": "envoie (à quelqu'un qui va se tromper)",
    "duree_s": 61.7
+  },
+  "053": {
+   "type": "arithmétique / illusion comptable (intuition piégée)",
+   "accroche": "Où est passé l'euro manquant ?",
+   "appel": "enregistre",
+   "duree_s": 65.0
+  },
+  "054": {
+   "type": "cinématique / calcul (piège de la série infinie)",
+   "accroche": "Une mouche, deux trains : combien de kilomètres ?",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 61.2
   }
  }
 }
