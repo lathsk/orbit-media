@@ -1,5 +1,5 @@
 {
- "next_number": 55,
+ "next_number": 57,
  "published_or_made": {
   "001": "chameaux (héritage de chameaux)",
   "002": "énigme (voir miniatures)",
@@ -54,7 +54,9 @@
   "051": "plus 50 % puis moins 50 % : pas le prix de départ (manteau 100 € → 150 € → 75 €, soit 25 % de moins ; pour revenir à 100 il faut remonter d'un tiers)",
   "052": "deux enfants, au moins une fille (pas deux garçons) : proba que les deux soient des filles = 1/3 (FF, FG, GF), pas 1/2",
   "053": "l'euro manquant de l'hôtel (trois amis, chambre à 25 €, groom) : aucun euro ne manque ; les 27 € payés contiennent déjà les 2 € du groom (25 + 2 = 27 ; 27 + 3 rendus = 30), on additionne des sommes qui ne vont pas ensemble",
-  "054": "la mouche et les deux trains : trains à 100 km l'un de l'autre, 50 km/h chacun, mouche à 75 km/h : les trains se croisent en 1 h, la mouche parcourt 75 km (compter le temps, pas la série infinie de trajets)"
+  "054": "la mouche et les deux trains : trains à 100 km l'un de l'autre, 50 km/h chacun, mouche à 75 km/h : les trains se croisent en 1 h, la mouche parcourt 75 km (compter le temps, pas la série infinie de trajets)",
+  "055": "rectangle dans un quart de cercle de rayon 10 cm (un coin au centre, le coin opposé sur le bord) : l'autre diagonale mesure 10 cm (diagonales égales = rayon), sans aucune mesure donnée",
+  "056": "dés non transitifs (rouge 2,2,4,4,9,9 ; cyan 1,1,6,6,8,8 ; or 3,3,5,5,7,7) : chacun bat le suivant 5 fois sur 9 (55,6 %), donc l'ami qui choisit après gagne toujours plus souvent"
  },
  "also_made_not_published": [
   "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -106,7 +108,9 @@
   "suite 2, 3, 5, 7, 11 (nombres premiers) : 13",
   "un coq pond un œuf sur un toit pointu : aucun côté, un coq ne pond pas",
   "suite 1, 4, 9, 16 : 25 (carrés parfaits)",
-  "qu'est-ce qui monte sans jamais redescendre : ton âge"
+  "qu'est-ce qui monte sans jamais redescendre : ton âge",
+  "suite 1, 1, 2, 3, 5, 8 (Fibonacci) : 13",
+  "il est à toi mais les autres l'utilisent plus que toi : ton prénom"
  ],
  "horaires": {
   "2026-10-31": [
@@ -309,6 +313,15 @@
    "story_a1": "20:23",
    "story_a2": "20:49",
    "note": "Dimanche. Stock vide (seule la 021, déjà envoyée TikTok, ignorée) : 053 + 054 fabriquées. Minutes différentes de la veille (10:52/19:03). Mode routine automatique."
+  },
+  "2026-11-23": {
+   "reel_055": "10:44",
+   "reel_056": "18:23",
+   "story_q1": "11:14",
+   "story_q2": "18:53",
+   "story_a1": "20:34",
+   "story_a2": "21:02",
+   "note": "Lundi. Stock vide : 055 + 056 fabriquées. Minutes différentes de la veille (10:21/18:37). Mode routine automatique."
   }
  },
  "boost_tracking": {
@@ -371,6 +384,18 @@
    "accroche": "Une mouche, deux trains : combien de kilomètres ?",
    "appel": "envoie (à quelqu'un qui va se tromper)",
    "duree_s": 61.2
+  },
+  "055": {
+   "type": "géométrie (diagonales du rectangle, données inutiles)",
+   "accroche": "Zéro mesure donnée, une seule réponse !",
+   "appel": "enregistre",
+   "duree_s": 57.5
+  },
+  "056": {
+   "type": "probabilités (dés non transitifs, intuition piégée)",
+   "accroche": "Choisis ton dé : tu vas perdre !",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 56.2
   }
  }
 }
