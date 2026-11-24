@@ -1,5 +1,5 @@
 {
- "next_number": 59,
+ "next_number": 61,
  "published_or_made": {
   "001": "chameaux (héritage de chameaux)",
   "002": "énigme (voir miniatures)",
@@ -58,7 +58,9 @@
   "055": "rectangle dans un quart de cercle de rayon 10 cm (un coin au centre, le coin opposé sur le bord) : l'autre diagonale mesure 10 cm (diagonales égales = rayon), sans aucune mesure donnée",
   "056": "dés non transitifs (rouge 2,2,4,4,9,9 ; cyan 1,1,6,6,8,8 ; or 3,3,5,5,7,7) : chacun bat le suivant 5 fois sur 9 (55,6 %), donc l'ami qui choisit après gagne toujours plus souvent",
   "057": "les 5 pirates et 100 pièces d'or : le chef garde 98 pièces (raisonnement à rebours : 98, 0, 1, 0, 1 ; les pirates 3 et 5 reçoivent 1 pièce car ils n'auraient rien sinon)",
-  "058": "paradoxe de l'amitié : en moyenne, nos amis ont plus d'amis que nous (village de 5 : une star à 4 amis + 4 villageois ; moyenne 1,6 contre 3,4 ; la star est comptée plus souvent)"
+  "058": "paradoxe de l'amitié : en moyenne, nos amis ont plus d'amis que nous (village de 5 : une star à 4 amis + 4 villageois ; moyenne 1,6 contre 3,4 ; la star est comptée plus souvent)",
+  "059": "batte et balle (1,10 € en tout, batte = balle + 1 €) : la balle coûte 5 centimes, pas 10 (2 balles + 1 € = 1,10 € ; batte 1,05 €). NB : déjà vue en story il y a plusieurs semaines",
+  "060": "Père Noël secret (100 amis, chacun pioche un nom au hasard) : proba que quelqu'un pioche son propre nom ≈ 63 % (1 − 1/e, dès ~7 personnes ; calcul vérifié par simulation 63,2 %), espérance = 1 personne"
  },
  "also_made_not_published": [
   "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -114,7 +116,9 @@
   "suite 1, 1, 2, 3, 5, 8 (Fibonacci) : 13",
   "il est à toi mais les autres l'utilisent plus que toi : ton prénom",
   "avec trois 9, le plus grand nombre : 9 puissance (9 puissance 9), plus de 369 millions de chiffres",
-  "si 1 = 5, 2 = 25, 3 = 125, 4 = 625, alors 5 = 1 (la 1re ligne dit 1 = 5)"
+  "si 1 = 5, 2 = 25, 3 = 125, 4 = 625, alors 5 = 1 (la 1re ligne dit 1 = 5)",
+  "angle entre les aiguilles à 3 h 15 : 7,5 degrés (l'aiguille des heures a bougé)",
+  "6 amis se serrent tous la main : 15 poignées (6x5/2)"
  ],
  "horaires": {
   "2026-10-31": [
@@ -335,6 +339,15 @@
    "story_a1": "20:12",
    "story_a2": "20:47",
    "note": "Mardi. Stock vide : 057 + 058 fabriquées. Minutes différentes de la veille (10:44/18:23). Voix défi v2 (« écris ta réponse en commentaire ») et fin sans « partage » (un seul appel par vidéo). Mode routine automatique."
+  },
+  "2026-11-25": {
+   "reel_059": "10:37",
+   "reel_060": "18:46",
+   "story_q1": "11:07",
+   "story_q2": "19:16",
+   "story_a1": "20:19",
+   "story_a2": "20:52",
+   "note": "Mercredi. Stock vide : 059 + 060 fabriquées. Minutes différentes de la veille (11:26/19:08). Mode routine automatique. 059 = énigme déjà passée en story (batte/balle), signalé à l'utilisateur."
   }
  },
  "boost_tracking": {
@@ -421,6 +434,18 @@
    "accroche": "Tes amis ont plus d'amis que toi !",
    "appel": "envoie (à quelqu'un qui va se tromper)",
    "duree_s": 57.1
+  },
+  "059": {
+   "type": "arithmétique / piège cognitif (intuition piégée)",
+   "accroche": "Ta première réponse sera fausse !",
+   "appel": "enregistre",
+   "duree_s": 61.7
+  },
+  "060": {
+   "type": "probabilités (tirage au sort, intuition piégée)",
+   "accroche": "Père Noël secret : le tirage rate souvent !",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 58.0
   }
  }
 }
