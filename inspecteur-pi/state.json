@@ -1,5 +1,5 @@
 {
- "next_number": 61,
+ "next_number": 63,
  "published_or_made": {
   "001": "chameaux (héritage de chameaux)",
   "002": "énigme (voir miniatures)",
@@ -60,7 +60,9 @@
   "057": "les 5 pirates et 100 pièces d'or : le chef garde 98 pièces (raisonnement à rebours : 98, 0, 1, 0, 1 ; les pirates 3 et 5 reçoivent 1 pièce car ils n'auraient rien sinon)",
   "058": "paradoxe de l'amitié : en moyenne, nos amis ont plus d'amis que nous (village de 5 : une star à 4 amis + 4 villageois ; moyenne 1,6 contre 3,4 ; la star est comptée plus souvent)",
   "059": "batte et balle (1,10 € en tout, batte = balle + 1 €) : la balle coûte 5 centimes, pas 10 (2 balles + 1 € = 1,10 € ; batte 1,05 €). NB : déjà vue en story il y a plusieurs semaines",
-  "060": "Père Noël secret (100 amis, chacun pioche un nom au hasard) : proba que quelqu'un pioche son propre nom ≈ 63 % (1 − 1/e, dès ~7 personnes ; calcul vérifié par simulation 63,2 %), espérance = 1 personne"
+  "060": "Père Noël secret (100 amis, chacun pioche un nom au hasard) : proba que quelqu'un pioche son propre nom ≈ 63 % (1 − 1/e, dès ~7 personnes ; calcul vérifié par simulation 63,2 %), espérance = 1 personne",
+  "061": "cartes de Wason (E, K, 4, 7 ; règle : voyelle → nombre pair) : retourner le E et le 7 (le 4 est inutile, le K hors sujet ; on cherche à casser la règle, pas à la confirmer)",
+  "062": "carré 8x8 (64 cases) découpé en 4 morceaux (2 trapèzes, 2 triangles) réarrangé en rectangle 13x5 (65 cases) : la case en plus vient d'une fente très fine le long de la diagonale (aire exactement 1 ; pentes 2/5 contre 3/8, nombres de Fibonacci 3, 5, 8, 13)"
  },
  "also_made_not_published": [
   "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -118,7 +120,9 @@
   "avec trois 9, le plus grand nombre : 9 puissance (9 puissance 9), plus de 369 millions de chiffres",
   "si 1 = 5, 2 = 25, 3 = 125, 4 = 625, alors 5 = 1 (la 1re ligne dit 1 = 5)",
   "angle entre les aiguilles à 3 h 15 : 7,5 degrés (l'aiguille des heures a bougé)",
-  "6 amis se serrent tous la main : 15 poignées (6x5/2)"
+  "6 amis se serrent tous la main : 15 poignées (6x5/2)",
+  "30 divisé par un demi, plus 10 : 70 (diviser par un demi = doubler)",
+  "suite 2, 6, 12, 20, 30 : 42 (on ajoute 4, 6, 8, 10, 12)"
  ],
  "horaires": {
   "2026-10-31": [
@@ -348,6 +352,15 @@
    "story_a1": "20:19",
    "story_a2": "20:52",
    "note": "Mercredi. Stock vide : 059 + 060 fabriquées. Minutes différentes de la veille (11:26/19:08). Mode routine automatique. 059 = énigme déjà passée en story (batte/balle), signalé à l'utilisateur."
+  },
+  "2026-11-26": {
+   "reel_061": "12:04",
+   "reel_062": "18:13",
+   "story_q1": "12:34",
+   "story_q2": "18:43",
+   "story_a1": "20:08",
+   "story_a2": "20:41",
+   "note": "Jeudi. Stock vide : 061 + 062 fabriquées. Minutes différentes de la veille (10:37/18:46). Mode routine automatique."
   }
  },
  "boost_tracking": {
@@ -444,6 +457,18 @@
   "060": {
    "type": "probabilités (tirage au sort, intuition piégée)",
    "accroche": "Père Noël secret : le tirage rate souvent !",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 58.0
+  },
+  "061": {
+   "type": "logique (cartes de Wason, intuition piégée)",
+   "accroche": "Neuf personnes sur dix se trompent ici !",
+   "appel": "enregistre",
+   "duree_s": 58.1
+  },
+  "062": {
+   "type": "géométrie / illusion (carré 8x8 → rectangle 13x5, case en plus)",
+   "accroche": "Une case est apparue de nulle part !",
    "appel": "envoie (à quelqu'un qui va se tromper)",
    "duree_s": 58.0
   }
