@@ -1,5 +1,5 @@
 {
- "next_number": 63,
+ "next_number": 65,
  "published_or_made": {
   "001": "chameaux (héritage de chameaux)",
   "002": "énigme (voir miniatures)",
@@ -62,7 +62,9 @@
   "059": "batte et balle (1,10 € en tout, batte = balle + 1 €) : la balle coûte 5 centimes, pas 10 (2 balles + 1 € = 1,10 € ; batte 1,05 €). NB : déjà vue en story il y a plusieurs semaines",
   "060": "Père Noël secret (100 amis, chacun pioche un nom au hasard) : proba que quelqu'un pioche son propre nom ≈ 63 % (1 − 1/e, dès ~7 personnes ; calcul vérifié par simulation 63,2 %), espérance = 1 personne",
   "061": "cartes de Wason (E, K, 4, 7 ; règle : voyelle → nombre pair) : retourner le E et le 7 (le 4 est inutile, le K hors sujet ; on cherche à casser la règle, pas à la confirmer)",
-  "062": "carré 8x8 (64 cases) découpé en 4 morceaux (2 trapèzes, 2 triangles) réarrangé en rectangle 13x5 (65 cases) : la case en plus vient d'une fente très fine le long de la diagonale (aire exactement 1 ; pentes 2/5 contre 3/8, nombres de Fibonacci 3, 5, 8, 13)"
+  "062": "carré 8x8 (64 cases) découpé en 4 morceaux (2 trapèzes, 2 triangles) réarrangé en rectangle 13x5 (65 cases) : la case en plus vient d'une fente très fine le long de la diagonale (aire exactement 1 ; pentes 2/5 contre 3/8, nombres de Fibonacci 3, 5, 8, 13)",
+  "063": "pommes de terre à 99 % d'eau (100 kg) qui sèchent jusqu'à 98 % d'eau : elles pèsent 50 kg (1 kg de matière sèche = 2 % du poids final ; ce n'est pas 99 kg)",
+  "064": "loto : 1-2-3-4-5-6 a exactement la même chance de sortir que n'importe quelle autre combinaison (1 sur 13 983 816 ≈ presque 14 millions) ; piège : la suite semble trop parfaite, mais beaucoup de gens la jouent donc le gain serait partagé"
  },
  "also_made_not_published": [
   "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -122,7 +124,9 @@
   "angle entre les aiguilles à 3 h 15 : 7,5 degrés (l'aiguille des heures a bougé)",
   "6 amis se serrent tous la main : 15 poignées (6x5/2)",
   "30 divisé par un demi, plus 10 : 70 (diviser par un demi = doubler)",
-  "suite 2, 6, 12, 20, 30 : 42 (on ajoute 4, 6, 8, 10, 12)"
+  "suite 2, 6, 12, 20, 30 : 42 (on ajoute 4, 6, 8, 10, 12)",
+  "livre de 100 pages : 192 chiffres pour numéroter (9 + 90x2 + 3)",
+  "pense à un nombre, double, +10, moitié, − ton nombre : toujours 5"
  ],
  "horaires": {
   "2026-10-31": [
@@ -361,6 +365,15 @@
    "story_a1": "20:08",
    "story_a2": "20:41",
    "note": "Jeudi. Stock vide : 061 + 062 fabriquées. Minutes différentes de la veille (10:37/18:46). Mode routine automatique."
+  },
+  "2026-11-27": {
+   "reel_063": "10:22",
+   "reel_064": "19:07",
+   "story_q1": "10:52",
+   "story_q2": "19:37",
+   "story_a1": "20:23",
+   "story_a2": "20:58",
+   "note": "Vendredi. Stock vide (la 021 est déjà publiée) : 063 + 064 fabriquées. Minutes différentes de la veille (12:04/18:13). Mode routine automatique."
   }
  },
  "boost_tracking": {
@@ -471,6 +484,18 @@
    "accroche": "Une case est apparue de nulle part !",
    "appel": "envoie (à quelqu'un qui va se tromper)",
    "duree_s": 58.0
+  },
+  "063": {
+   "type": "arithmétique / pourcentages (intuition piégée)",
+   "accroche": "Un seul pour cent change tout !",
+   "appel": "enregistre",
+   "duree_s": 56.7
+  },
+  "064": {
+   "type": "probabilités (loto, intuition piégée)",
+   "accroche": "Un, deux, trois, quatre, cinq, six : gagnant ?",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 56.6
   }
  }
 }
