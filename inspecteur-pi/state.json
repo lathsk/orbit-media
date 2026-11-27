@@ -1,5 +1,5 @@
 {
- "next_number": 65,
+ "next_number": 67,
  "published_or_made": {
   "001": "chameaux (héritage de chameaux)",
   "002": "énigme (voir miniatures)",
@@ -64,7 +64,9 @@
   "061": "cartes de Wason (E, K, 4, 7 ; règle : voyelle → nombre pair) : retourner le E et le 7 (le 4 est inutile, le K hors sujet ; on cherche à casser la règle, pas à la confirmer)",
   "062": "carré 8x8 (64 cases) découpé en 4 morceaux (2 trapèzes, 2 triangles) réarrangé en rectangle 13x5 (65 cases) : la case en plus vient d'une fente très fine le long de la diagonale (aire exactement 1 ; pentes 2/5 contre 3/8, nombres de Fibonacci 3, 5, 8, 13)",
   "063": "pommes de terre à 99 % d'eau (100 kg) qui sèchent jusqu'à 98 % d'eau : elles pèsent 50 kg (1 kg de matière sèche = 2 % du poids final ; ce n'est pas 99 kg)",
-  "064": "loto : 1-2-3-4-5-6 a exactement la même chance de sortir que n'importe quelle autre combinaison (1 sur 13 983 816 ≈ presque 14 millions) ; piège : la suite semble trop parfaite, mais beaucoup de gens la jouent donc le gain serait partagé"
+  "064": "loto : 1-2-3-4-5-6 a exactement la même chance de sortir que n'importe quelle autre combinaison (1 sur 13 983 816 ≈ presque 14 millions) ; piège : la suite semble trop parfaite, mais beaucoup de gens la jouent donc le gain serait partagé",
+  "065": "horloge coupée en deux d'un trait droit, même somme des deux côtés : entre le 3 et le 4 et entre le 9 et le 10 (78 / 2 = 39 ; couper « en deux côtés » donne 21 contre 57 ; chaque cran de décalage ajoute 6 : 21, 27, 33, 39)",
+  "066": "pizza et trois coups de couteau droits : 7 parts au maximum (pas 6 ; chaque coup doit croiser tous les précédents, le n-ième ajoute n parts : 2, 4, 7, 11)"
  },
  "also_made_not_published": [
   "anniversaire de la directrice (type Cheryl) - jugé trop connu"
@@ -126,7 +128,9 @@
   "30 divisé par un demi, plus 10 : 70 (diviser par un demi = doubler)",
   "suite 2, 6, 12, 20, 30 : 42 (on ajoute 4, 6, 8, 10, 12)",
   "livre de 100 pages : 192 chiffres pour numéroter (9 + 90x2 + 3)",
-  "pense à un nombre, double, +10, moitié, − ton nombre : toujours 5"
+  "pense à un nombre, double, +10, moitié, − ton nombre : toujours 5",
+  "qu'est-ce qui a des touches mais n'ouvre aucune porte : un clavier (ou un piano)",
+  "suite U, D, T, Q, C, S, S, H : N (initiales de un, deux, trois… neuf)"
  ],
  "horaires": {
   "2026-10-31": [
@@ -374,6 +378,15 @@
    "story_a1": "20:23",
    "story_a2": "20:58",
    "note": "Vendredi. Stock vide (la 021 est déjà publiée) : 063 + 064 fabriquées. Minutes différentes de la veille (12:04/18:13). Mode routine automatique."
+  },
+  "2026-11-28": {
+   "reel_065": "11:41",
+   "reel_066": "18:23",
+   "story_q1": "12:11",
+   "story_q2": "18:53",
+   "story_a1": "20:29",
+   "story_a2": "20:52",
+   "note": "Samedi. Stock vide : 065 + 066 fabriquées. Minutes différentes de la veille (10:22/19:07). Mode routine automatique."
   }
  },
  "boost_tracking": {
@@ -496,6 +509,18 @@
    "accroche": "Un, deux, trois, quatre, cinq, six : gagnant ?",
    "appel": "envoie (à quelqu'un qui va se tromper)",
    "duree_s": 56.6
+  },
+  "065": {
+   "type": "logique / arithmétique (horloge, intuition piégée)",
+   "accroche": "Coupe cette horloge, même somme des deux côtés !",
+   "appel": "enregistre",
+   "duree_s": 56.96
+  },
+  "066": {
+   "type": "géométrie / combinatoire (pizza, intuition piégée)",
+   "accroche": "Trois coups de couteau : combien de parts ?",
+   "appel": "envoie (à quelqu'un qui va se tromper)",
+   "duree_s": 55.88
   }
  }
 }
